@@ -277,7 +277,7 @@ header a{
     grid-gap:1em;
 }
 #gallery figure img{
-    width: 350px;
+    width: 300px;
     height: 200px;
     margin: 30px 5px;
 }
