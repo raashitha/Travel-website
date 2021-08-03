@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font: 15px/1  Arial, Helvetica, sans-serif ;
+    background-image: url('../images/bg/bg5.jpg');
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover; 
+}
+ ul{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* header*/
+header a:hover{
+    font-weight: bold;
+    color:cornflowerblue;
+}
+header .current a{
+    color:rgb(193, 223, 25);
+    font-weight: bolder;
+    text-transform: uppercase;
+} 
+.highlights{
+    color: dimgray;
+    font-weight: bold;
+}
+header{
+    
+    font: 50px bold hel Cambria, Cochin, Georgia, Times, 'Times New Roman', serifvetica;
+    text-transform: capitalize;
+    background-color: rgb(27, 26, 26);  
+    color: blanchedalmond;
+    padding:20px;
+}
+header #branding h1{
+    float: left;
+    font-size: 50PX;
+    margin-top: 20px;
+    word-spacing: 0.3em;
+    text-shadow: 2px 2px 4px #363333; 
+}
+header nav{
+    float: right;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px ;
+    margin-top: 40px;
+}
+header a{
+    color: honeydew;
+    font-size:13px;
+    text-decoration: none;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+#heading{
+    padding: 10px;
+    font-size: 40px;
+}
+/* grid*/
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:140px;
+    padding: 10px;
+    margin-top: 30px;
+    
+}.grid p{
+    font:20px/1.5 Times New Roman;
+    text-align: justify;
+}
+.box{
+    text-align: center;
+}
+.box img{
+    width: 90px;
+    height: 70px;
+    margin-top: 90px;
+}
+.box p{
+    padding: 5px 30%;
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 30px;
+    font: 20px/1 Times New Roman;
+}
+.box h3{
+    color:rgb(12, 11, 11);
+    font-size: 25px;
+    margin-top: 30px;
+}
+/* footer*/
+.last{
+    background-image: url('../images/bg/bg6.jpg');
+    color: blanchedalmond;
+    padding:100px;
+}
+.last h4{
+    margin-bottom: 30px;
+    text-align: center;
+    font: 20px bold  Monaco;
+}
+.last h3{
+    text-align: center;
+    font: 30px bold  Monaco;
+    padding: 10px;
+}
+.last p{
+    text-align: center;
+    padding-top:50px;
+  margin-bottom: 10px;
+  font: 15px bold  Courier New;
+}
+.follow {
+    display: flex;
+    justify-content: center;
+}
+.follow img{
+      width: 50px;
+      height: 30px;
+      margin-bottom: 40px;
+      border-radius: 50%;
+}
