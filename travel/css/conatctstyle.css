@@ -37,7 +37,7 @@ header{
     font: 50px bold hel Cambria, Cochin, Georgia, Times, 'Times New Roman', serifvetica;
     text-transform: capitalize;
     background-color: rgb(49, 43, 43); 
-    color: blanchedalmond;
+    color: whitesmoke;
     padding:20px;
 }
 header #branding h1{
@@ -95,7 +95,7 @@ header a{
     background-color: black;
     opacity: 0.5;
     border-style: none;
-    color: blanchedalmond;
+    color: whitesmoke;
     width: 190px;
     height: 50px;
     margin-top: 10px;
@@ -144,17 +144,24 @@ a:hover{
     padding-bottom: 5px;
 }
 .credit p{
-    font:larer bold  Monaco;
-    color: rgb(41, 40, 38);
+    font:20px bolder  Monaco;
+    color: rgb(247, 245, 242);
 }
-#fname{
+#destination{
     border-style:none;
-    width: 400px;
+    width: 200px;
     height: 50px;
     background: transparent;
     font:larger bolder  Monaco;
     background-color: rgb(252, 248, 248);
-    
+}
+#fname{
+    border-style:none;
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    font:larger bolder  Monaco;
+    background-color: rgb(252, 248, 248);   
    
 }
 .payment-1{
@@ -170,7 +177,7 @@ a:hover{
     width: 150px;
     height:56px;
     background-color: rgb(49, 47, 47);
-    color: blanchedalmond;
+    color: whitesmoke;
     font:larger bolder  hel Cambria, Cochin, Georgia, Times;
     text-transform: uppercase;
 }
@@ -178,7 +185,7 @@ a:hover{
 .last{
     margin-top: 0px;
     background-image: url('../images/bg/bg6.jpg'); 
-    color: blanchedalmond;
+    color: whitesmoke;
     padding:100px;
 }
 .last h4{
