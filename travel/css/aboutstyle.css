@@ -37,7 +37,7 @@ header{
     font: 50px bold hel Cambria, Cochin, Georgia, Times, 'Times New Roman', serifvetica;
     text-transform: capitalize;
     background-color: rgb(27, 26, 26);  
-    color: blanchedalmond;
+    color: whitesmoke;
     padding:20px;
 }
 header #branding h1{
@@ -102,7 +102,7 @@ header a{
 /* footer*/
 .last{
     background-image: url('../images/bg/bg6.jpg');
-    color: blanchedalmond;
+    color: whitesmoke;
     padding:100px;
 }
 .last h4{
