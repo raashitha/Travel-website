@@ -10,7 +10,7 @@ function validation() {
         return false;
     }
     if (password.length <6) {
-        document.getElementById('error').innerHTML = "Incorect Password";
+        document.getElementById('error').innerHTML = "password atleast contain 5 character or numbers";
         return false;
         
     }
