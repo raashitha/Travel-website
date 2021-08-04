@@ -2,9 +2,7 @@
 <head>
     <title>getaway</title>
     
-        <link rel="stylesheet" href="../css/home.css">
-       
-        
+        <link rel="stylesheet" href="../css/home.css">       
 </head>
 <body>
     <!--header-->
@@ -28,8 +26,7 @@
            <img src="../images/slides/slide2.jpg" alt="there is image">
            <img src="../images/slides/slide3.jpg" alt="there is image">
            <img src="../images/slides/slide4.jpg" alt="there is image">
-           <img src="../images/slides/slide5.jpg" alt="there is image">
-           
+           <img src="../images/slides/slide5.jpg" alt="there is image">  
         </figure>
     </section>  
 <!--search tag-->
@@ -44,14 +41,14 @@
 <!--logo-->
      <section id="logo">
          <div class="con">
-             <img src="../images/logo/logo1.jpg" alt="">
-             <h1>Pick where</h1>
-             <p>we can assure our client have their comfortable services.we will assure them comfort travel at every moments.</p>
-         </div>
-         <div class="con">
             <img src="../images/logo/logo2.jpg" alt="">
             <h1>Travel Shop</h1>
             <p>we will give them affordable shopping experience  at anywhere and anymoments.</p>
+        </div>
+        <div class="con">
+            <img src="../images/logo/logo1.jpg" alt="">
+            <h1>Pick where</h1>
+            <p>we can assure our client have their comfortable services.we will assure them comfort travel at every moments.</p>
         </div>
         <div class="con">
             <img src="../images/logo/logo3.jpg" alt="">
@@ -110,42 +107,32 @@
             </figure>
         </section>
        <div class="box2">
-        <section id="contact">
-            
-            <h2>Contact Us For Booking</h2>
-            
-            <p>For contact us kindly refer ,Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt commodi ab a quisquam non, consequatur suscipit expedita obcaecati alias velit aliquam iste temporibus nisi quod dignissimos illo cumque sapiente doloribus?<a href="../html/contact us.html">CONTACT US</a>
-               
-            
-            </p>
-            
+        <section id="contact">    
+            <h3>Contact Us For Booking</h3>
+            <p>For contact us kindly refer, 
+                <li>GETAWAY Agency</li>
+                <li>12,Main road,</li>
+                <li>pondicherry-609 601</li>
+                <li>ph.no:9900324567</li>
+                <button class="btn-1"><a href="../html/contact us.html">to know more..</a></button>
+            </p>   
         </section>
-        
         <aside id="reg">
-            <form action="#" method="POST" >
-            
-            <input type="text" class="no-outline" name="Name" placeholder="username">
+            <form action="#" method="POST" onsubmit="return validation()" >
+            <h4>Tell Us About your Favorite Destination</h4>
             <br>
-            
-            
-            
-            <input type="password" class="no-outline" name="Name" placeholder="password">
+            <input type="text" class="no-outline" name="Name" id="destination" placeholder="Destination">
             <br>
-            
-            <input type="text" class="no-outline" name="Name" placeholder="Message">
+            <input type="text" class="no-outline" name="Name" id="message" placeholder="Message">
             <br>
-            <button type="submit" class="button-1" onclick="alert('Thank you for response') " value="login">submit</button>
-            
+            <div id="error"></div>
+            <br>
+            <button type="submit" class="button-1" value="login">submit</button> 
         </form>
-        <div id="error"></div>
-      </aside>
-      
-      
+      </aside>       
     </div>
-        
-    
     <footer class="last">
-        <h3 >Inspired by the beauty of letting go?</h3>
+        <h3 >The beauty of letting go?</h3>
            <h4 id="last1"> Go tell your friends!</h4>
         <figure class="follow">
             <a href="#"><img src="../images/icon/fb.jpg"></a>
@@ -153,10 +140,9 @@
             <a href="#"><img src="../images/icon/wh.jpg"></a>
             <a href="#"><img src="../images/icon/tw.jpg"></a>
            </figure>
-            
-            <p>© 2021 All rights reserved ,Raashi.</p>
+           <p>copyright © 2021 All rights reserved,raashitha</p>
     </footer>
-</div>
-    
+</div>  
 </body>
+    <script src="../script/home.js"></script>
 </html>
