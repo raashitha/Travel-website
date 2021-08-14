@@ -32,7 +32,7 @@ A responsive travel website built with **HTML, CSSS & JS** which has  some prett
  Here we using some of the CSS higlights feauters and image slides and CSS Flexbox to create a gallery of image.
   
   **3>ABOUT US PAGE:**
-   ![image](https://user-images.githubusercontent.com/88303289/128028860-7f8691d3-d63a-427f-8d8d-c3f0c341edc1.png)
+   ![image](https://user-images.githubusercontent.com/88303289/129450046-66464830-3365-455d-a9cb-7c77e0d47d76.png)
     this page is about their informations like travel experience and some of thier social websites.
     
   **4>CONTACT US PAGE:**
